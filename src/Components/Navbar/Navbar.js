@@ -31,8 +31,10 @@ export default function Navbar() {
         <ul className="liste">
           <li className="items">
             <Link to="/">Accueil</Link></li>
-          <li className="items"><Link to="/ecrire">Écrire</Link></li>
-          <li className="items"><Link to="/contact">Contact</Link></li>
+          <li className="items">
+            <Link to="/ecrire">Écrire</Link></li>
+          <li className="items">
+            <Link to="/contact">Contact</Link></li>
         </ul>
       )}
       <button onClick={toggleNav} className="btn">Menu</button>
