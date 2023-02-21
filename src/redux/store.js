@@ -2,9 +2,6 @@ import {createStore, applyMiddleware, combineReducers} from 'redux';
 import articleReducer from './articles/articleReducer';
 import thunk from 'redux-thunk';
 
-
-
-
 const rootReducer = combineReducers({
     articleReducer
 })

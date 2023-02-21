@@ -1,7 +1,3 @@
-body{
-    --blancCassé: rgba(255,255,255,0.6)
-}
-
 nav {
     position: fixed;
     top: 0;
@@ -18,22 +14,25 @@ nav {
     justify-content: center;
     align-items: center;
     position: relative;
+    font-size: 22px;
 }
 .items {
-    margin: 0 30px;
-    color: var(--blancCassé);
-    text-transform: uppercase;
+    color: #f1f1f1;
     cursor: pointer;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+.items a {
+    color: #f1f1f1;
+    text-decoration: none;
 }
 .btn {
     display: none;
     position: absolute;
     right: 10px;
     top: 7px;
-    border-radius: 30%;
     padding: 5px;
-    color: #1e086d;
-    background: linear-gradient(45deg, rgb(221, 138, 221), rgb(47, 47, 255));
+    color: #000;
     font-size: 18px;
 }
 
@@ -44,15 +43,19 @@ nav {
         height: auto;
     }
     .items:nth-child(1){
-        border-top: 1px solid var(--blancCassé);
+        border-top: 1px solid rgba(255, 255, 255, 0.603);
         margin-top: 50px;
     }
     .items {
         height: 70px;
         width: 100%;
-        border-bottom: 1px solid var(--blancCassé)f;
+        border-top: 1px solid rgba(255, 255, 255, 0.603);
         line-height: 70px;
         text-align: center;
+    }
+    .items a {
+        color: #f1f1f1;
+        text-decoration: none;
     }
     .btn {
         display: block;
